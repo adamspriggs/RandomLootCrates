@@ -1,0 +1,14 @@
+# Random Loot Crates #
+
+corner_1_x: 10
+corner_1_z: 10
+corner_2_x: -10
+corner_2_z: -10
+world: world
+timer: 600 # in seconds
+
+common:
+rare:
+epic:
+legendary:
+ancient:

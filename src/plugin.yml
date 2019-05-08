@@ -1,0 +1,16 @@
+name: RandomLootCrates
+author: PutridGamings
+main: RandomLootCrates
+depend: [Factions]
+version: 1.0
+description: Spawns a random loot crate on a timer. Dirt (up to 64) beside the item you want is the rarity, x number of dirt over 64.
+commands:
+  rlc:
+    Description: General command for this plugin
+    permission: RandomLC.admin
+    permission-message: You don't have the right permissions to do this.
+  rlcwild:
+    description: Spawn within 500 blocks of the last spawned crate
+    usage: §6/rlcwild
+    permission: RandomLC.wild
+    permission-message: You don't have the right permissions to do this.
